@@ -19,8 +19,6 @@ body{
 
 
 
-
-
 .nav-btn{
 
     background-color: rgb(177 255 5);
@@ -123,3 +121,76 @@ font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, O
  
 
 }
+
+
+
+.bongo-banner {
+  background: linear-gradient(90deg, #001e2b 40%, #023430 100%);
+  color: #fff;
+  padding: 2.5rem 1.5rem;
+  border-radius: 14px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 2rem;
+  max-width: auto;
+  margin: 2.5rem auto;
+  box-shadow: 0 6px 26px 0 #001e2b22;
+}
+
+.banner-content {
+  flex: 1 1 300px;
+  min-width: 250px;
+}
+
+.banner-title {
+  color: #00ed64;
+  margin-bottom: 0.7rem;
+  font-size: 2.3rem;
+  letter-spacing: 0.5px;
+}
+
+.banner-desc {
+  margin-bottom: 1.4rem;
+  max-width: 420px;
+  font-size: 1.08rem;
+  line-height: 1.7;
+}
+
+.banner-actions {
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+}
+
+.banner-btn {
+  background: #00ed64;
+  color: #001e2b;
+  border: none;
+  padding: 0.9rem 1.6rem;
+  border-radius: 7px;
+  font-weight: 700;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background 0.2s;
+}
+
+.banner-link {
+  color: #00ed64;
+  text-decoration: underline;
+  font-weight: 600;
+  font-size: 1rem;
+}
+
+.banner-img {
+  width: 30vw;
+  border-radius: 10px;
+  box-shadow: 0 4px 24px 0 #001e2b33;
+  background: #fff;
+  padding: 0.5rem;
+  flex: 0 1 240px;
+}
+
+
+
+
